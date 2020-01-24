@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+[class*="col-"]{
+  float: left;
+}
+
+.col-1{width: ;}
+.col-2{width: ;}
+.col-3{width: ;}
+.col-4{width: ;}
+.col-5{width: ;}
+.col-6{width: ;}
+.col-7{width: ;}
+.col-8{width: ;}
+.col-9{width: ;}
+.col-10{width: ;}
+.col-11{width: ;}
+.col-12{width: ;}
