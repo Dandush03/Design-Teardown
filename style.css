@@ -163,17 +163,11 @@ section>h6 {
 
 .header-container {
   background-color: blue;
-  z-index: 1;
-}
-
-.nav-bar {
-  z-index: 1;
-
 }
 
 .main-container {
   background-color: red;
-
+  float: left;
 }
 
 .article-container {
@@ -186,27 +180,3 @@ section>h6 {
   /* position:absolute; */
 }
 
-.main-section {
-  /* position:relative; */
-}
-
-.centered-heading-container {
-  display: none;
-  background-color: purple;
-  text-align: center;
-  width: 200px;
-  left: 50%;
-  margin-left: -100px;
-  z-index: 0;
-  /* display: block; */
-  position: absolute;
-  /* float: left; */
-}
-
-.centered-heading {}
-
-.article-item {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  background-color: gray;
-}
