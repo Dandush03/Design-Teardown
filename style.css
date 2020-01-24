@@ -48,6 +48,11 @@ section:first-child{
 
 .header-container{
   background-color: blue;
+  z-index: 1;
+}
+
+.nav-bar{
+  z-index: 1;
 }
 
 .main-container{
@@ -61,10 +66,8 @@ section:first-child{
 
 .section-header-container{
   background-color: yellow;
+  /* position: relative; */
   /* position:absolute; */
-}
-
-.centered-heading{
 }
 
 .centered-heading-container{
@@ -73,9 +76,13 @@ section:first-child{
   width: 200px;
   left: 50%;
   margin-left: -100px;
+  z-index: 0;
   /* display: block; */
   position: absolute;
   /* float: left; */
+}
+
+.centered-heading{
 }
 
 .article-item{
