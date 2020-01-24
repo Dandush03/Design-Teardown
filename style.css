@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
 
-/*For Phone like View*/
+/*For Phone Like View*/
 [class*="col-"]{
   float: left;
   width: 100%;
 }
 
-/*For Tablet like View*/
+/*For Tablet Like View*/
 @media only screen and (min-width: 600px)
 {
   .col-s-1 {width: 8.33%;}
@@ -25,7 +25,7 @@
   .col-s-12 {width: 100%;}
 }
 
-/*For Desktop like View*/
+/*For Desktop Like View*/
 @media only screen and (min-width: 768px)
 {
   .col-1 {width: 8.33%;}
