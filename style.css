@@ -180,7 +180,7 @@ section>h6 {
 
 
 .main-container {
-  background-color: red;
+  /* background-color: red; */
   float: left;
 }
 
@@ -189,9 +189,17 @@ section>h6 {
 }
 
 .section-header-container {
-  background-color: yellow;
+  background-color: transparent;
   /* position: relative; */
   /* position:absolute; */
+}
+
+.center-heading{
+text-shadow: 0 0 10px dimgray, 0 0 5px dimgray;
+}
+
+.header-highlight{
+  background-color: rgb(70,70,70);
 }
 
 .centered-heading-container {
@@ -204,5 +212,28 @@ section>h6 {
 }
 
 .article-item {
+  background-color: silver;
+  height: 200px;
   /* padding: 30px; */
+}
+
+.adblocker-ad{
+  background-color: darkgray;
+  height: 200px;
+}
+
+.character-image{
+  width: 100px;
+  height: 100px;
+  background-color: dimgray;
+  left: 60%;
+  top: -20px;
+  position: relative;
+}
+
+.adblocker-button{
+  left: 20%;
+  top: 50px;
+  position:relative;
+  background-color: dimgray;
 }
