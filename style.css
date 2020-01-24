@@ -70,6 +70,10 @@ section:first-child{
   /* position:absolute; */
 }
 
+.main-section{
+  /* position:relative; */
+}
+
 .centered-heading-container{
   background-color: purple;
   text-align:center;
