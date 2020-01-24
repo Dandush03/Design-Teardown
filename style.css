@@ -107,6 +107,7 @@
 
   .col-12 {
     width: 100%;
+    float: left;
   }
 }
 
@@ -180,3 +181,15 @@ section>h6 {
   /* position:absolute; */
 }
 
+.centered-heading-container{
+  text-align:center;
+}
+
+.hashtags{
+  display: flex;
+  list-style-type: none;
+}
+
+.article-item{
+  /* padding: 30px; */
+}
