@@ -17,6 +17,45 @@ a {
 
 @media only screen {
 
+  .lvl-1 {
+    background-color: rgb(0, 0, 0);
+  }
+
+  .lvl-2 {
+    background-color: rgb(51, 51, 51);
+  }
+
+  .lvl-3 {
+    background-color: rgb(71, 71, 71);
+  }
+
+  .lvl-4 {
+    background-color: rgb(100, 100, 100);
+  }
+
+  .lvl-5 {
+    background-color: rgb(151, 151, 151);
+  }
+
+  .lvl-6 {
+    background-color: rgb(171, 171, 171);
+  }
+
+  .lvl-7 {
+    background-color: rgb(200, 200, 200);
+  }
+
+  .lvl-8 {
+    background-color: rgb(225, 225, 225);
+  }
+
+  .lvl-9 {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+@media only screen {
+
   [class*="col-"] {
     overflow: hidden;
     float: left;
@@ -97,7 +136,6 @@ section>h6 {
 
 .top-nav-bar {
   height: 10vw;
-  background-color: rgb(51, 51, 51);
 }
 
 .logo {
@@ -119,7 +157,8 @@ section>h6 {
   color: white;
 }
 
-.top-nav-bar div, .lts-art div {
+.top-nav-bar div,
+.lts-art div {
   display: grid;
   align-content: center;
 }
@@ -154,14 +193,13 @@ section>h6 {
   padding: 10%;
   border-radius: 10%;
   border-color: white;
-  background: rgb(220, 220, 220);
   border-style: solid;
   color: white;
   text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 5px rgb(71, 71, 71);
 
 }
 
-.lts-art{
+.lts-art {
   height: 90vw;
 }
 
