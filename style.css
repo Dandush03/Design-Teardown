@@ -135,6 +135,10 @@ section>h6 {
   display: none;
 }
 
+article>h6 {
+  display: none;
+}
+
 .top-nav-bar {
   height: 10vw;
 }
