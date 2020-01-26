@@ -177,7 +177,6 @@ section>h6 {
   text-align: center;
   align-items: center;
   color: white;
-
 }
 
 .navbar-btn li {
@@ -202,7 +201,6 @@ section>h6 {
   border-style: solid;
   color: white;
   text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 5px rgb(71, 71, 71);
-
 }
 
 .lts-art-title {
@@ -217,7 +215,8 @@ section>h6 {
   padding: 0;
 }
 
-.lts-art, .lts-post {
+.lts-art,
+.lts-post {
   height: 30vw;
 }
 
@@ -232,12 +231,12 @@ a:hover {
   font-size: 200%;
 }
 
-.lts-post .group-2-cont{
+.lts-post .group-2-cont {
   margin: 0 auto;
   height: 100%;
   align-content: unset;
   float: none;
-} 
+}
 
 .group-2-cont>div {
   display: block;
