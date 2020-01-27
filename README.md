@@ -1,10 +1,11 @@
-# Building With Backgrounds and Gradients
+# Design Teardown
 Fifth Microverse HTML Project
 
 # What it does
 Disign of a Teardown Page
 
-### With Out Using Any Grid or Flex Element
+### Creating a WebSite HeatMap from:
+https://www.smashingmagazine.com/
 
 ## Built With
 - HTML5
@@ -13,7 +14,7 @@ Disign of a Teardown Page
 #### and deployed to GitHub
 
 ## Live Demo
-[Live Demo]()
+[Live Demo](https://dandush03.github.io/Design-Teardown/)
 
 ## 🤝 Contributing
 Contributions are not well recive since this is for learning purposes only, issues are welcome!
@@ -24,6 +25,16 @@ Special thanks to Microverse, for this learning opportunity
 ## Show your support
 Give us a ⭐️ if you like this project!
 
-Check out our LinkedIn Profiles:
+Check out our Profiles:
+
+**Danie Laloush**
+Github: [@Dandush03](https://github.com/Dandush03)
+Twitter: [@d_laloush](https://twitter.com/d_laloush)
+Linkedin: [Daniel Laloush](https://www.linkedin.com/in/daniel-laloush-0a7331a9) check what I'm talking about!
+
+**Oscar Mier**
+Github: [@voscarmv](https://github.com/voscarmv)
+Twitter: [@voscarmv](https://twitter.com/voscarmv)
+Linkedin: [Oscar Mier](https://www.linkedin.com/in/oscar-mier-072984196/) 
 
 ## Enjoy!
