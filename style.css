@@ -126,7 +126,34 @@ display:none;
 .pow-container{
   background-color: darkorchid;
   height: 200px;
-  width: 66%;
+  width: 66.66%;
   margin: 0 auto;
+}
+
+.secondary-articles-container-4{
+  display: grid;
+  grid-template-columns: 2fr 4fr 4fr 2fr;
+}
+
+.guides-links{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+}
+
+.newsletter-ad{
+  background-color: cyan;
+  /* text-align: center; */
+}
+
+.smashing-newsletter{
+  background-color: darkorchid;
+  height: 400px;
+  width: 66.66%;
+  margin: 0 auto;
+}
+
+.page-footer{
+  text-align: center;
+  background-color: red;
 }
 
