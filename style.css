@@ -23,6 +23,7 @@ img {
 }
 
 .navbar{
+  display: flex;
   background-color: red;
 }
 
@@ -31,17 +32,24 @@ img {
   background-color: blue;
 }
 
-.main-articles-container>h6{
+section>h6{
 display:none;
 }
 
 .center-header{
+  position: absolute;
+  width: 300px;
+  left: 50%;
+  margin-left: -150px;
+  text-align: center;
   background-color: yellow;
 }
 
 .articles-container{
   display: flex;
-  background-color: purple;
+  align-items: center;
+  width: 100%;
+  background-color: orange;
 }
 
 .article-1{
@@ -55,3 +63,70 @@ display:none;
 .article-3{
   background-color: salmon;
 }
+
+.main-article{
+  flex: 1;
+  padding: 100px;
+  height: 300px;
+}
+
+.item1{
+  background-color: seagreen;
+}
+
+.item2{
+  background-color: tomato;
+}
+
+.item3{
+  background-color: yellow;
+}
+
+.nav-item{
+  flex:1;
+  padding: 50px;
+}
+
+.secondary-articles-container-1{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 4fr;
+}
+
+.secondary-article{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-separator{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.secondary-articles-container-2{
+  display: grid;
+  grid-template-columns: 2fr 4fr 2fr 2fr 2fr;
+}
+
+.secondary-articles-container-3{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 4fr 2fr;
+}
+
+.advertisement{
+  background-color: blue;
+  padding: 100px;
+}
+
+.person-of-the-week{
+  background-color: cyan;
+  /* text-align: center; */
+}
+
+.pow-container{
+  background-color: darkorchid;
+  height: 200px;
+  width: 66%;
+  margin: 0 auto;
+}
+
