@@ -10,8 +10,8 @@
  */
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -310,10 +310,6 @@ section>h6 {
   height: 45vh;
 }
 
-
-
-
-
 .main-articles-container {
   position: relative;
   background-color: blue;
@@ -354,11 +350,6 @@ section>h6 {
   grid-template-columns: 2fr 2fr 2fr 2fr 4fr;
   grid-template-rows: 45vh;
 }
-
-
-
-
-
 
 .advertisement {
   padding: 100px;
@@ -434,7 +425,7 @@ section>h6 {
   width: 100px;
   height: 100px;
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   left: 50px;
 }
 
