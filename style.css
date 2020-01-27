@@ -22,6 +22,45 @@ img {
   height: auto;
 }
 
+@media only screen {
+  .lvl-1 {
+    background-color: rgb(0, 0, 0);
+    padding: 2px;
+  }
+
+  .lvl-2 {
+    background-color: rgb(51, 51, 51);
+  }
+
+  .lvl-3 {
+    background-color: rgb(71, 71, 71);
+  }
+
+  .lvl-4 {
+    background-color: rgb(100, 100, 100);
+  }
+
+  .lvl-5 {
+    background-color: rgb(151, 151, 151);
+  }
+
+  .lvl-6 {
+    background-color: rgb(171, 171, 171);
+  }
+
+  .lvl-7 {
+    background-color: rgb(200, 200, 200);
+  }
+
+  .lvl-8 {
+    background-color: rgb(225, 225, 225);
+  }
+
+  .lvl-9 {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
 .navbar{
   display: flex;
   background-color: red;
