@@ -363,6 +363,10 @@ section>h6 {
   padding: 100px;
 }
 
+.ad-small{
+  padding: 50px;
+}
+
 .ad-image{
   width: 350px;
   height: 300px;
@@ -370,8 +374,8 @@ section>h6 {
 }
 
 .ad-image-book{
-  width: 200px;
-  height: 300px;
+  width: 150px;
+  height: 200px;
   float: right;
   margin-top: -120px;
 }
