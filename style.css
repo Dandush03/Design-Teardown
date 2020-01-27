@@ -410,17 +410,32 @@ section>h6 {
 .guides-links {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
-  grid-template-rows: 45vh;
 }
 
 .smashing-newsletter {
-  height: 40vh;
   width: 66.66%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .page-footer {
+  padding-right: 20vw;
+  padding-left: 20vw;
   text-align: center;
+  position: relative;
+}
+
+.page-footer p {
+  padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.footer-image{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0px;
+  left: 50px;
 }
 
 .ad-container{
