@@ -14,7 +14,7 @@ https://www.smashingmagazine.com/
 #### and deployed to GitHub
 
 ## Live Demo
-[Live Demo](https://dandush03.github.io/Design-Teardown/)
+[Live Demo](https://rawcdn.githack.com/Dandush03/Design-Teardown/467fe50a292a1e8f4867b16df93845ba107baff9/index.html)
 
 ## 🤝 Contributing
 Contributions are not well recive since this is for learning purposes only, issues are welcome!
