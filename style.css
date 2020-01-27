@@ -202,19 +202,25 @@
    position: relative;
    background-color: blue;
  }
- 
- 
- 
+
  .articles-container {
    display: flex;
-   align-items: center;
    height: 25vw;
  }
  
  .main-article {
-   flex: 1;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  flex: 1;
+  height: 100%;
  }
  
+.main-article>h2{
+  width: 50%;
+  align-self: center;
+}
+
  .item1 {
    background-color: seagreen;
  }
@@ -230,11 +236,10 @@
  .secondary-articles-container-1 {
    display: grid;
    grid-template-columns: 2fr 2fr 2fr 2fr 4fr;
+   grid-template-rows: 45vh;
  }
  
  .secondary-article {
-   padding-top: 100px;
-   padding-bottom: 100px;
  }
  
  .section-separator {
