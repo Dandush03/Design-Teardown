@@ -208,6 +208,8 @@ text-shadow: 0 0 10px dimgray, 0 0 5px dimgray;
 
 .hashtags {
   display: flex;
+  justify-content: space-around;
+  background-color: red;
   list-style-type: none;
 }
 
