@@ -298,7 +298,7 @@ section>h6 {
  *    :......::::..:::::..:::.......::::.......:::..::::::::::::::::::.........::
  */
 
- .secondary-articles-container-2 {
+.secondary-articles-container-2 {
   display: grid;
   grid-template-columns: 2fr 4fr 2fr 2fr 2fr;
   height: 45vh;
@@ -364,17 +364,17 @@ section>h6 {
   padding: 100px;
 }
 
-.ad-small{
+.ad-small {
   padding: 50px;
 }
 
-.ad-image{
+.ad-image {
   width: 350px;
   height: 300px;
   margin: 0 auto;
 }
 
-.ad-image-book{
+.ad-image-book {
   width: 150px;
   height: 200px;
   float: right;
@@ -387,13 +387,13 @@ section>h6 {
   margin: 0 auto;
 }
 
-.pow-image{
+.pow-image {
   width: 100px;
   height: 100px;
   float: left;
 }
 
-.pow-image-low{
+.pow-image-low {
   width: 50px;
   height: 50px;
   float: left;
@@ -427,10 +427,10 @@ section>h6 {
 
 .page-footer p {
   padding-top: 30px;
-padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
-.footer-image{
+.footer-image {
   width: 100px;
   height: 100px;
   position: absolute;
@@ -438,17 +438,17 @@ padding-bottom: 30px;
   left: 50px;
 }
 
-.ad-container{
+.ad-container {
   height: 45vh;
   text-align: center;
 }
 
-.guides-list ul{
+.guides-list ul {
   list-style-type: disc;
   padding-left: 3vh;
 
 }
 
-.guides-list li{
+.guides-list li {
   padding-top: 2vh;
 }
