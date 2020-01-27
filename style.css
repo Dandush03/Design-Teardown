@@ -363,10 +363,35 @@ section>h6 {
   padding: 100px;
 }
 
+.ad-image{
+  width: 350px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.ad-image-book{
+  width: 200px;
+  height: 300px;
+  float: right;
+  margin-top: -120px;
+}
+
 .pow-container {
   height: 200px;
   width: 66.66%;
   margin: 0 auto;
+}
+
+.pow-image{
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.pow-image-low{
+  width: 50px;
+  height: 50px;
+  float: left;
 }
 
 .secondary-articles-container-4 {
@@ -394,5 +419,6 @@ section>h6 {
 }
 
 .ad-container{
-  height: 15vh;
+  height: 45vh;
+  text-align: center;
 }
