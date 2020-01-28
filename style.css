@@ -347,7 +347,7 @@ section>h6 {
 
 .secondary-articles-container-1 {
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr 2fr 4fr;
+  grid-template-columns: 2fr 2.66fr 2.66fr 2.66fr 2fr;
   grid-template-rows: 45vh;
 }
 
