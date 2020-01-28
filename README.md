@@ -2,7 +2,7 @@
 Fifth Microverse HTML Project
 
 # What it does
-Disign of a Teardown Page
+Design of a Teardown Page
 
 ### Creating a WebSite HeatMap from:
 https://www.smashingmagazine.com/
@@ -14,7 +14,7 @@ https://www.smashingmagazine.com/
 #### and deployed to GitHub
 
 ## Live Demo
-[Live Demo](https://rawcdn.githack.com/Dandush03/Design-Teardown/467fe50a292a1e8f4867b16df93845ba107baff9/index.html)
+[Live Demo](https://rawcdn.githack.com/Dandush03/Design-Teardown/812472236bf3521b9be984db22a9b16e317d6f0b/index.html)
 
 ## 🤝 Contributing
 Contributions are not well recive since this is for learning purposes only, issues are welcome!
