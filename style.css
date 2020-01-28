@@ -1,20 +1,444 @@
-* {
-  box-sizing: border-box;
+/***
+ *    :'######:::'########:'##:::###:'########:'########:::::'###::::'##:::::::
+ *    '##...###::###.....::####::###:###.....::###....###:::'#####:::###:::::::
+ *    ###:::..:::###:::::::#####:###:###:::::::###::::###::'##:.###::###:::::::
+ *    ###::'####:#######:::#########:#######:::#########::'##:::.###:###:::::::
+ *    ###:::###::###...::::###.#####:###...::::###..###:::##########:###:::::::
+ *    ###:::###::###:::::::###:.####:###:::::::###::.###::###....###:###:::::::
+ *    .#######:::#########:###::.###:#########:###:::.###:###::::###:#########:
+ *    :......::::........::..::::..::........::..:::::..::..:::::..::........::
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-[class*="col-"]{
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  color: white;
+  text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 5px rgb(71, 71, 71);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  transition: 0.3s;
+  color: white;
+}
+
+a:hover {
+  text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 5px rgb(255, 255, 255);
+  font-size: 110%;
+}
+
+@media only screen {
+  [class*="col-"] {
+    overflow: hidden;
+  }
+
+  .col-0 {
+    display: none;
+  }
+
+  .col-1 {
+    width: 6.66%;
+  }
+
+  .col-2 {
+    width: 13.33%;
+  }
+
+  .col-3 {
+    width: 20%;
+  }
+
+  .col-4 {
+    width: 26.66%;
+  }
+
+  .col-5 {
+    width: 33.33%;
+  }
+
+  .col-6 {
+    width: 40%;
+  }
+
+  .col-7 {
+    width: 46.66%;
+  }
+
+  .col-8 {
+    width: 53.33%;
+  }
+
+  .col-9 {
+    width: 60%;
+  }
+
+  .col-10 {
+    width: 66.66%;
+  }
+
+  .col-11 {
+    width: 73.33%;
+  }
+
+  .col-12 {
+    width: 80%;
+  }
+
+  .col-13 {
+    width: 86.66%;
+  }
+
+  .col-14 {
+    width: 93.33%;
+  }
+
+  .col-15 {
+    width: 100%;
+  }
+}
+
+@media only screen {
+  .lvl-1 {
+    background-color: rgb(0, 0, 0);
+    padding: 2px;
+  }
+
+  .lvl-2 {
+    background-color: rgb(51, 51, 51);
+  }
+
+  .lvl-3 {
+    background-color: rgb(71, 71, 71);
+  }
+
+  .lvl-4 {
+    background-color: rgb(100, 100, 100);
+  }
+
+  .lvl-5 {
+    background-color: rgb(151, 151, 151);
+  }
+
+  .lvl-6 {
+    background-color: rgb(171, 171, 171);
+  }
+
+  .lvl-7 {
+    background-color: rgb(200, 200, 200);
+  }
+
+  .lvl-8 {
+    background-color: rgb(225, 225, 225);
+  }
+
+  .lvl-9 {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+li {
+  align-self: center;
+}
+
+section>h6 {
+  display: none;
+}
+
+.section-separator {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+/***
+  *    '##:::###::::'###::::'##::::'##::::::::::'########:::::'###::::'########::
+  *    ####::###:::'#####:::###::::###::::::::::###....###:::'#####:::###....###:
+  *    #####:###::'##:.###::###::::###::::::::::###::::###::'##:.###::###::::###:
+  *    #########:'##:::.###:###::::###:'#######:#########::'##:::.###:#########::
+  *    ###.#####:##########:.###::###::........:###....###:##########:###..###:::
+  *    ###:.####:###....###::.######::::::::::::###::::###:###....###:###::.###::
+  *    ###::.###:###::::###:::.####:::::::::::::#########::###::::###:###:::.###:
+  *    ..::::..::..:::::..:::::...::::::::::::::........:::..:::::..::..:::::..::
+  */
+
+.navbar {
+  display: flex;
+  height: 20vh;
+}
+
+.top-nav-bar {
+  height: 10vw;
+}
+
+.logo {
+  align-items: center;
+  text-align: left;
+}
+
+.logo div {
+  align-self: center;
+}
+
+.logo a {
+  display: flex;
+}
+
+.logo svg {
+  width: 100%;
+  height: auto;
+  padding-top: 50%;
+}
+
+.logo h2,
+.logo span {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.top-nav-bar div {
+  display: grid;
+  align-content: center;
+  text-align: center;
+}
+
+.navbar-btn ul {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+
+.navbar-btn li {
+  height: 100%;
+}
+
+.navbar-btn h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.ui-btn {
+  float: right;
+}
+
+.ui-btn button {
+  float: right;
+  margin: 10%;
+  padding: 5%;
+  border-radius: 10%;
+  border-color: white;
+  border-style: solid;
+  color: white;
+  text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 5px rgb(71, 71, 71);
+}
+
+/***
+  *    :'######:::'########:::'#######::'##::::'##:'########::::::::::::::'##:::
+  *    '##...###::###....###:'##....###:###::::###:###....###:::::::::::'####:::
+  *    ###:::..:::###::::###:###::::###:###::::###:###::::###:::::::::::..###:::
+  *    ###::'####:#########::###::::###:###::::###:#########::'#######::::###:::
+  *    ###:::###::###..###:::###::::###:###::::###:###.....:::........::::###:::
+  *    ###:::###::###::.###::###::::###:###::::###:###::::::::::::::::::::###:::
+  *    .#######:::###:::.###:.########::.########::###::::::::::::::::::'######:
+  *    :......::::..:::::..:::.......::::.......:::..:::::::::::::::::::......::
+  */
+
+.center-header {
+  position: absolute;
+  width: 300px;
+  left: 50%;
+  margin-left: -150px;
+  text-align: center;
+}
+
+/***
+ *    :'######:::'########:::'#######::'##::::'##:'########::::::::::::'#######::
+ *    '##...###::###....###:'##....###:###::::###:###....###::::::::::'##....###:
+ *    ###:::..:::###::::###:###::::###:###::::###:###::::###::::::::::..:::::###:
+ *    ###::'####:#########::###::::###:###::::###:#########::'#######::'#######::
+ *    ###:::###::###..###:::###::::###:###::::###:###.....:::........:'##::::::::
+ *    ###:::###::###::.###::###::::###:###::::###:###:::::::::::::::::###::::::::
+ *    .#######:::###:::.###:.########::.########::###:::::::::::::::::##########:
+ *    :......::::..:::::..:::.......::::.......:::..::::::::::::::::::.........::
+ */
+
+.secondary-articles-container-2 {
+  display: grid;
+  grid-template-columns: 2fr 4fr 2fr 2fr 2fr;
+  height: 45vh;
+}
+
+.secondary-articles-container-3 {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 4fr 2fr;
+  height: 45vh;
+}
+
+.main-articles-container {
+  position: relative;
+  background-color: blue;
+}
+
+.articles-container {
+  display: flex;
+  height: 25vw;
+}
+
+.main-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 1;
+  height: 100%;
+}
+
+.main-article>h2 {
+  width: 50%;
+  align-self: center;
+}
+
+.item1 {
+  background-color: seagreen;
+}
+
+.item2 {
+  background-color: tomato;
+}
+
+.item3 {
+  background-color: yellow;
+}
+
+.secondary-articles-container-1 {
+  display: grid;
+  grid-template-columns: 2fr 2.66fr 2.66fr 2.66fr 2fr;
+  grid-template-rows: 45vh;
+}
+
+.advertisement {
+  padding: 100px;
+}
+
+.ad-small {
+  padding: 50px;
+}
+
+.ad-image {
+  width: 350px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.ad-image-book {
+  width: 150px;
+  height: 200px;
+  float: right;
+  margin-top: -120px;
+}
+
+.pow-container {
+  height: 200px;
+  width: 66.66%;
+  margin: 0 auto;
+}
+
+.pow-image {
+  width: 100px;
+  height: 100px;
   float: left;
 }
 
-.col-1{width: ;}
-.col-2{width: ;}
-.col-3{width: ;}
-.col-4{width: ;}
-.col-5{width: ;}
-.col-6{width: ;}
-.col-7{width: ;}
-.col-8{width: ;}
-.col-9{width: ;}
-.col-10{width: ;}
-.col-11{width: ;}
-.col-12{width: ;}
+.pow-image-low {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.secondary-articles-container-4 {
+  margin-top: 1vh;
+  display: grid;
+  grid-template-columns: 2fr 4fr 4fr 2fr;
+  grid-template-rows: 30vh 30vh 30vh;
+  grid-gap: 1vh;
+}
+
+.guides-links {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+}
+
+.smashing-newsletter {
+  width: 66.66%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-footer {
+  padding-right: 20vw;
+  padding-left: 20vw;
+  text-align: center;
+  position: relative;
+}
+
+.page-footer p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-image {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+}
+
+.ad-container {
+  height: 45vh;
+  text-align: center;
+}
+
+.guides-list ul {
+  list-style-type: disc;
+  padding-left: 3vh;
+}
+
+.guides-list li {
+  padding-top: 2vh;
+}
